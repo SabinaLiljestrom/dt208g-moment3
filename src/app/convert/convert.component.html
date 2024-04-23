@@ -1,1 +1,19 @@
 <h2>Konverterare</h2>
+<br>
+<div>
+    <label for = "num1">Tal att konvertera</label><br>
+    <input type="number" id="num1" [(ngModel)]="num1">
+</div>
+<br>
+<div>
+    <p>Resultat: {{result}}</p>
+</div>
+<br>
+<div>
+    <button (click)="meter()">Meter till feet</button>
+</div>
+<br>
+<div>
+    <button (click)="feet()">Feet till meter</button>
+</div>
+<br>

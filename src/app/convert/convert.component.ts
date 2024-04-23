@@ -13,6 +13,8 @@ export class ConvertComponent {
 num1: number = 0;
 result: number = 0; 
 x: number = 3.2808;
+y: number = 1.8;
+z:number = 32;
 
 //methods
 meter(): void {
@@ -21,5 +23,11 @@ meter(): void {
 
 feet (): void {
   this.result = this.num1 / this.x; 
+}
+fahrenheit (): void {
+  this.result = (this.num1 * this.y) + this.z;
+}
+celsius (): void {
+  this.result = (this.num1-this.z) / this.y;
 }
 }

@@ -1,0 +1,18 @@
+#konverterare {
+    width: 100%;
+    text-align: center;
+}
+button {
+    border-color: #a898ba;
+    border-style: solid 5px;
+}
+button:hover {
+	/*--när man för musen över knapp--*/
+	background-color: #a898ba;
+	cursor: pointer;
+}
+
+button:active {
+	/*--utseende och animering när man klickar på knapp--*/
+	transform: translateY(5px);
+}
